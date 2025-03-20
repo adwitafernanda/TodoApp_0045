@@ -25,6 +25,9 @@ class _TodoappState extends State<Todoapp> {
             children: [
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
       );
   }
 }
