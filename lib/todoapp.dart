@@ -32,7 +32,17 @@ class _TodoappState extends State<Todoapp> {
                       const Text(
                         "Task Date:",
                         style: TextStyle(fontWeight: FontWeight.bold),
+                        Text(
+                        selectedDate != null
+                            ? DateFormat(
+                              "dd-MM-yyyy HH:mm",
+                            ).format(selectedDate!)
+                            : "Pilih tanggal",
+                        style: const TextStyle(color: Colors.black54),
                       ),
+                    ],
+                  ),
+                ),
       );
   }
 }
