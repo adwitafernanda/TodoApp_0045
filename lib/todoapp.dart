@@ -96,6 +96,13 @@ class _TodoappState extends State<Todoapp> {
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(10),
                           ),
+                        ),
+                        child: const Text("Tambah Tugas", style: TextStyle(color: Colors.white)),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
                 ),
       );
   }
