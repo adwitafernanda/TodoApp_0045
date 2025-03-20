@@ -51,6 +51,14 @@ class _TodoappState extends State<Todoapp> {
                   ),
                 ],
               ),
+              if (selectedDate == null)
+                const Padding(
+                  padding: EdgeInsets.symmetric(vertical: 5),
+                  child: Text(
+                    "Silakan pilih tanggal",
+                    style: TextStyle(color: Colors.red),
+                  ),
+                ),
                 ),
       );
   }
