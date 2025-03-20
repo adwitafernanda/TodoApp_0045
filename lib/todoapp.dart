@@ -59,6 +59,16 @@ class _TodoappState extends State<Todoapp> {
                     style: TextStyle(color: Colors.red),
                   ),
                 ),
+                const SizedBox(height: 10),
+              Form(
+                key: _formKey,
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    const Text(
+                      "Nama Tugas",
+                      style: TextStyle(color: Color.fromARGB(255, 0, 0, 0)),
+                    ),
                 ),
       );
   }
