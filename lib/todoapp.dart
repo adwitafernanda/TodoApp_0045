@@ -69,6 +69,15 @@ class _TodoappState extends State<Todoapp> {
                       "Nama Tugas",
                       style: TextStyle(color: Color.fromARGB(255, 0, 0, 0)),
                     ),
+                    TextFormField(
+                      controller: _nameController,
+                      decoration: InputDecoration(
+                        hintText: "Masukkan nama tugas",
+                        border: OutlineInputBorder(
+                          borderSide: const BorderSide(color: Colors.red),
+                          borderRadius: BorderRadius.circular(8),
+                        ),
+                      ),
                 ),
       );
   }
