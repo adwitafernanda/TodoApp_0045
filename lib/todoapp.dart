@@ -42,6 +42,15 @@ class _TodoappState extends State<Todoapp> {
                       ),
                     ],
                   ),
+                  IconButton(
+                    onPressed: _pickDate,
+                    icon: const Icon(
+                      Icons.date_range_rounded,
+                      color: Colors.blue,
+                    ),
+                  ),
+                ],
+              ),
                 ),
       );
   }
